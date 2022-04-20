@@ -40,13 +40,21 @@ p{
 
 .tabela{
     margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: auto;
+    /* justify-content: center; */
+    margin-left: 38%;
 }
+
 
 th{
     font-family: sans-serif;
     color: aliceblue;
+    
     padding-right: 30px;
+}
+
+td{
+    color: aliceblue;
+    font-family: sans-serif;
 }
