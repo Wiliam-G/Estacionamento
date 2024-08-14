@@ -1,0 +1,97 @@
+# Visual Studio
+.vscode/
+.vscode/*
+*.code-workspace
+
+# Arquivos de Build
+build/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]*/**
+[Aa][Rr][Mm]*/**/[Dd]ebug
+[Aa][Rr][Mm]*/**/[Rr]elease
+x64/Debug/
+x64/Release/
+bin/
+obj/
+out/
+
+# Arquivos de configuração do Visual Studio
+.vs/
+*.vcxproj*
+*.user
+*.rsuser
+*.suo
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.filters
+
+# Logs e dados de depuração
+*.log
+*.tlog
+*.dmp
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.vspx
+*.vsp
+*.vspf
+
+# Arquivos temporários e cache
+*.ipch
+*.obj
+*.pch
+*.idb
+*.sdf
+*.tmp
+*.cache
+
+# Arquivos de teste
+*.gcda
+*.gcno
+*.gcov
+
+# Arquivos de backup
+*.bak
+*.swp
+*.bak
+
+# Arquivos gerados por compilação
+*.exe
+*.dll
+*.lib
+*.exp
+*.idb
+*.ipdb
+*.ipch
+*.iobj
+*.tlog
+*.lastbuildstate
+
+# Arquivos de sistema
+*.DS_Store
+Thumbs.db
+
+# Arquivos de packages NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos do CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+_compile_commands.json
+
+# Arquivos do SQL Server
+sql/
