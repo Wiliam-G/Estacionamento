@@ -6,6 +6,8 @@ using std::cout;
 using std::cin;
 using std::string;
 
+#include "Estacionamento.h"
+
 int main() {
 	float precoInicial = 0.0;
 	float precoPorHora = 0.0;
@@ -15,6 +17,8 @@ int main() {
 
 	cout << "Agora digite o preço por hora: ";
 	cin >> precoPorHora;
+
+	Estacionamento es(precoInicial, precoPorHora);
 
 	int opcao;
 	bool exibirMenu = true;
@@ -31,15 +35,15 @@ int main() {
 		switch (opcao)
 		{
 		case 1:
-			// chama o método adicionarVeiculo;
+			es.adicionarveiculo();
 			break;
 		case 2:
 			//chama o método removerVeiculo;
 			break;
 		case 3:
-			//chama o método listarVeiculos;
+			es.listarVeiculos();
 			break;
-		case 4: 
+		case 4:
 			exibirMenu = false;
 			break;
 		default:
